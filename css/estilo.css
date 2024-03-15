@@ -1,0 +1,144 @@
+.padre{
+    background-color: aquamarine;
+    display: grid;
+    /*flex permitetranajar en una dimension*/
+    grid-template-columns: 25% 25% 25% 25%;
+    /*siempre enla caja padre, en las cajas hijas grid column*/
+    /*autoauto muestra dos columnas, segun el numero de auto, contamos las columnas
+    En lugar de auto tambien podemos usar porcentajes*/
+    grid-template-rows: 100px 100px 100px 100px;
+    /*ajusta eltamaño de filas*/
+    justify-content: space-between;
+    /*justify-content: space-around;*/
+    /*justifica la posicion del contenido*/
+    /*align-items: center;
+    /*lleva el contenido de la caja al centro respetando el espacio dado*/
+}
+.hijo{
+    background-color: goldenrod;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    /*display: inline-block;//  estatico, cajas lado a lado*/
+}
+.hijo1{
+    background-color: rgb(32, 218, 32);
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 1/5;
+    /*acomoda la caja hasta la columna deseada*/
+    /*display: inline-block;//  estatico, cajas lado a lado*/
+}
+.hijo2{
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 1/3;
+}
+.hijo3{
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 3/4;
+}
+.hijo4{
+    background-color: rgb(226, 43, 186);
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 4/5;
+}
+.hijo5{
+    background-color: rgb(226, 43, 186);
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 1/2;
+}
+.hijo6{
+    background-color: rgb(226, 43, 186);
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 2/5;
+}
+.hijo7{
+    background-color: rgb(226, 43, 186);
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+.hijo8{
+    background-color: rgb(226, 43, 186);
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 3/5;
+    grid-row: 4/5;
+}
+.hijo9{
+    background-color: rgb(226, 43, 186);
+    border-style: solid;
+    border-color: dimgray;
+    font-size: 50px;
+    grid-column: 3/5;
+    grid-row: 5/6;
+}
+.flex
+{
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around; 
+    
+}
+.contenedor{
+    background-color: blanchedalmond;
+    width: 450px;
+    height: 250px;
+    margin: 5px;
+    
+}
+.contenedor1{
+    background-color: blanchedalmond;
+    width: 650px;
+    height: 250px;
+    margin: 5px;
+}
+.caja1{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}
+.caja2{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+}
+.cajashorizontales
+{
+    background-color: rgb(54, 12, 32);
+    width: 320px;
+    height: 75px;
+    margin: 5px;
+}
+.cajalarga{
+    background-color:  rgb(54, 12, 32);
+    width: 640px;
+    height: 70px;
+    margin: 5px;
+    
+
+}
